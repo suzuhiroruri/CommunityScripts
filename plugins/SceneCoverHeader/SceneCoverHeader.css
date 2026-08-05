@@ -1,0 +1,28 @@
+/* Cover art inside the scene detail header. The header is centre-aligned, so
+   the image is centred too and never wider than the column. */
+.scene-header-container .scene-cover-header {
+  display: block;
+  margin: 0.25rem auto 0.5rem;
+  line-height: 0;
+  text-align: center;
+}
+
+.scene-header-container .scene-cover-header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+/* Only a link version reacts to the pointer. */
+.scene-header-container a.scene-cover-header img {
+  transition: filter 0.15s ease;
+}
+.scene-header-container a.scene-cover-header:hover img {
+  filter: brightness(1.08);
+}
+
+/* When the detail column is collapsed there is no room for it. */
+.scene-tabs.collapsed .scene-cover-header {
+  display: none;
+}

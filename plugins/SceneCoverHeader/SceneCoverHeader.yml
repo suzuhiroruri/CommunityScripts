@@ -1,0 +1,24 @@
+name: Scene Cover Header
+description: Shows the scene's cover art (jacket) in the scene detail column, right under the studio logo and above the title.
+version: 1.0.0
+url: https://github.com/stashapp/CommunityScripts/tree/main/plugins/SceneCoverHeader
+# Frontend only: the cover is the image Stash already serves for the scene
+# (/scene/<id>/screenshot), so nothing is generated or stored.
+ui:
+  javascript:
+    - SceneCoverHeader.js
+  css:
+    - SceneCoverHeader.css
+settings:
+  placement:
+    displayName: Placement (studio / title / off)
+    description: Where the cover goes in the scene header. "studio" (default) = under the studio logo, above the title. "title" = under the title. "off" = do not show it.
+    type: STRING
+  maxHeight:
+    displayName: Maximum height (px)
+    description: Cap on the cover's height so it does not push the tabs down. Default 240. 0 = no limit (full column width).
+    type: NUMBER
+  clickToOpen:
+    displayName: Click opens the full-size cover
+    description: When enabled (default), clicking the cover opens the original image in a new tab.
+    type: BOOLEAN
