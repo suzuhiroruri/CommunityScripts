@@ -21,6 +21,7 @@
   var placement = "studio"; // studio | title | off
   var maxHeight = 240;      // px, 0 = no limit
   var clickToOpen = true;
+  var refreshOnSave = true;
 
   var coverCache = {}; // scene id -> cover URL (with Stash's ?t cache buster)
 
@@ -56,6 +57,7 @@
       var h = parseInt(cfg.maxHeight, 10);
       if (!isNaN(h) && h >= 0) maxHeight = h;
       clickToOpen = asBool(cfg.clickToOpen, true);
+      refreshOnSave = asBool(cfg.refreshOnSave, true);
     });
   }
 
@@ -147,12 +149,71 @@
     requestAnimationFrame(function () { scheduled = false; sync(); });
   }
 
+  /* ---------- refresh after a save ---------- */
+  // Saving from the Edit tab can change the cover, but Stash leaves the header
+  // as it is and the URL here is already cached, so the old jacket stays on
+  // screen. Drop the cached URL and re-insert the image once the save has come
+  // back from the server -- the rest of the page is left alone.
+  var SAVE_WINDOW_MS = 20000;
+  var armedUntil = 0; // the save button was clicked recently
+
+  function armSave(e) {
+    var t = e.target;
+    var btn = t && t.closest ? t.closest(".edit-button") : null;
+    if (!btn || !btn.classList.contains("btn-primary")) return; // danger = Delete
+    if (!btn.closest(".edit-buttons")) return;
+    if (!sceneIdOf(window.location.pathname)) return;
+    armedUntil = Date.now() + SAVE_WINDOW_MS;
+  }
+
+  function isSceneUpdate(init) {
+    var body = init && init.body;
+    return typeof body === "string" && body.indexOf("SceneUpdate") !== -1;
+  }
+
+  // The cover URL carries Stash's ?t=<updated_at> cache buster, which the save
+  // has just moved on, so re-querying it is enough to get the browser to fetch
+  // the new image.
+  function refreshCover() {
+    var id = sceneIdOf(window.location.pathname);
+    if (!id) return;
+    delete coverCache[id];
+    var el = document.querySelector("." + CLASS);
+    if (el) el.remove();
+    schedule();
+  }
+
+  function watchSaves() {
+    var origFetch = window.fetch;
+    window.fetch = function (input, init) {
+      var p = origFetch.apply(this, arguments);
+      if (Date.now() > armedUntil || !isSceneUpdate(init)) return p;
+      return p.then(function (res) {
+        // Only a save that came back clean has a new cover to show.
+        res
+          .clone()
+          .json()
+          .then(function (j) {
+            if (!j || j.errors || !j.data || !j.data.sceneUpdate) return;
+            armedUntil = 0;
+            refreshCover();
+          })
+          .catch(function () {});
+        return res;
+      });
+    };
+  }
+
   /* ---------- boot ---------- */
   // Navigating between scenes re-renders the header, so the observer alone
   // covers route changes -- no history patching needed.
   loadSettings().then(function () {
     new MutationObserver(schedule).observe(document.body, { childList: true, subtree: true });
     window.addEventListener("popstate", schedule);
+    if (refreshOnSave) {
+      document.addEventListener("click", armSave, true);
+      watchSaves();
+    }
     schedule();
   });
 })();

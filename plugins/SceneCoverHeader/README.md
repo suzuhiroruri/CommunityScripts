@@ -21,6 +21,7 @@ The scene header is a React subtree that re-renders on navigation and on edits, 
 | **Placement** | `studio` | `studio` = under the studio logo, above the title. `title` = under the title. `off` = do not show the cover. |
 | **Maximum height (px)** | `240` | Caps the cover's height so it does not push the tabs down. `0` = no limit (full column width). |
 | **Click opens the full-size cover** | on | Clicking the cover opens the original image in a new tab. |
+| **Refresh the cover after saving a scene** | on | Saving from the scene's Edit tab reloads just this image once the save has succeeded, so a cover changed by that edit is shown right away. The rest of the page is left as it is. |
 
 ## Requirements
 

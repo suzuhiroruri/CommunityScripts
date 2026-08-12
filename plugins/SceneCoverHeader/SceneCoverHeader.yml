@@ -1,6 +1,6 @@
 name: Scene Cover Header
 description: Shows the scene's cover art (jacket) in the scene detail column, right under the studio logo and above the title.
-version: 1.0.0
+version: 1.1.0
 url: https://github.com/stashapp/CommunityScripts/tree/main/plugins/SceneCoverHeader
 # Frontend only: the cover is the image Stash already serves for the scene
 # (/scene/<id>/screenshot), so nothing is generated or stored.
@@ -21,4 +21,8 @@ settings:
   clickToOpen:
     displayName: Click opens the full-size cover
     description: When enabled (default), clicking the cover opens the original image in a new tab.
+    type: BOOLEAN
+  refreshOnSave:
+    displayName: Refresh the cover after saving a scene
+    description: When enabled (default), saving from the scene's Edit tab reloads just this image once the save succeeds, so a cover changed by the edit is shown right away. The rest of the page is left as it is.
     type: BOOLEAN
