@@ -1,0 +1,282 @@
+{
+  "en": {
+    "plugin.description": "Put a dot on the browser tab favicon when the scene you are viewing has not been watched yet, so you can tell unseen scenes at a glance.",
+    "setting.resumeCountsAsWatched.name": "Treat partially-watched as watched",
+    "setting.resumeCountsAsWatched.description": "Default on. When on, a scene you have started (it has a resume position) counts as watched and shows no dot. When off, only the play count matters — a scene with 0 plays keeps the dot even if you opened it.",
+    "setting.dotColor.name": "Dot colour",
+    "setting.dotColor.description": "Any CSS colour for the favicon dot. Default #e02020 (red)."
+  },
+  "af": {
+    "plugin.description": "Sit ’n kolletjie op die blad se ikoon wanneer die toneel wat jy kyk nog nie gekyk is nie, sodat jy ongekykte tonele met een oogopslag kan sien.",
+    "setting.resumeCountsAsWatched.name": "Hanteer gedeeltelik gekyk as gekyk",
+    "setting.resumeCountsAsWatched.description": "Standaard aan. Wanneer aan, tel ’n toneel wat jy begin het (dit het ’n hervat-posisie) as gekyk en wys geen kolletjie nie. Wanneer af, tel net die speeltal — ’n toneel met 0 spele behou die kolletjie selfs al het jy dit oopgemaak.",
+    "setting.dotColor.name": "Kolletjie-kleur",
+    "setting.dotColor.description": "Enige CSS-kleur vir die kolletjie op die ikoon. Standaard #e02020 (rooi)."
+  },
+  "ar": {
+    "plugin.description": "ضع نقطة على أيقونة التبويب عندما يكون المشهد الذي تشاهده لم تشاهده بعد، لتميّز المشاهد غير المشاهدة بلمحة.",
+    "setting.resumeCountsAsWatched.name": "اعتبار المشاهدة الجزئية مشاهدة",
+    "setting.resumeCountsAsWatched.description": "مُفعّل افتراضيًا. عند التفعيل، يُعدّ المشهد الذي بدأته (لديه موضع استئناف) مُشاهَدًا ولا تظهر نقطة. عند الإيقاف، يُهمّ عدد مرات التشغيل فقط — المشهد بـ 0 تشغيل يحتفظ بالنقطة حتى لو فتحته.",
+    "setting.dotColor.name": "لون النقطة",
+    "setting.dotColor.description": "أي لون CSS لنقطة الأيقونة. الافتراضي #e02020 (أحمر)."
+  },
+  "bg": {
+    "plugin.description": "Поставя точка върху иконата на раздела, когато сцената, която гледате, още не е гледана, за да разпознавате негледаните сцени с един поглед.",
+    "setting.resumeCountsAsWatched.name": "Считай частично гледаното за гледано",
+    "setting.resumeCountsAsWatched.description": "Включено по подразбиране. Когато е включено, сцена, която сте започнали (има позиция за възобновяване), се счита за гледана и не показва точка. Когато е изключено, значение има само броят гледания — сцена с 0 гледания запазва точката, дори да сте я отворили.",
+    "setting.dotColor.name": "Цвят на точката",
+    "setting.dotColor.description": "Който и да е CSS цвят за точката върху иконата. По подразбиране #e02020 (червен)."
+  },
+  "bn": {
+    "plugin.description": "আপনি যে দৃশ্যটি দেখছেন সেটি এখনও দেখা হয়নি হলে ট্যাবের আইকনে একটি ডট বসায়, যাতে এক নজরেই না-দেখা দৃশ্যগুলো বুঝতে পারেন।",
+    "setting.resumeCountsAsWatched.name": "আংশিকভাবে দেখাকে দেখা হিসেবে গণ্য করুন",
+    "setting.resumeCountsAsWatched.description": "ডিফল্টভাবে চালু। চালু থাকলে, আপনি শুরু করেছেন এমন দৃশ্য (যার একটি পুনরায় শুরুর অবস্থান আছে) দেখা হিসেবে গণ্য হয় এবং কোনো ডট দেখায় না। বন্ধ থাকলে কেবল প্লে সংখ্যাই গুরুত্বপূর্ণ — 0 বার প্লে হওয়া দৃশ্য আপনি খুললেও ডট থেকে যাবে।",
+    "setting.dotColor.name": "ডটের রং",
+    "setting.dotColor.description": "আইকনের ডটের জন্য যেকোনো CSS রং। ডিফল্ট #e02020 (লাল)।"
+  },
+  "ca": {
+    "plugin.description": "Posa un punt a la icona de la pestanya quan l’escena que estàs veient encara no s’ha vist, perquè puguis identificar les escenes no vistes d’un cop d’ull.",
+    "setting.resumeCountsAsWatched.name": "Tracta les parcialment vistes com a vistes",
+    "setting.resumeCountsAsWatched.description": "Activat per defecte. Quan està activat, una escena que has començat (té una posició de represa) compta com a vista i no mostra cap punt. Quan està desactivat, només compta el nombre de reproduccions — una escena amb 0 reproduccions manté el punt encara que l’hagis obert.",
+    "setting.dotColor.name": "Color del punt",
+    "setting.dotColor.description": "Qualsevol color CSS per al punt de la icona. Per defecte #e02020 (vermell)."
+  },
+  "cs": {
+    "plugin.description": "Přidá tečku na ikonu panelu, když scéna, kterou sleduješ, ještě nebyla zhlédnuta, abys nezhlédnuté scény poznal na první pohled.",
+    "setting.resumeCountsAsWatched.name": "Považovat částečně zhlédnuté za zhlédnuté",
+    "setting.resumeCountsAsWatched.description": "Ve výchozím stavu zapnuto. Když je zapnuto, scéna, kterou jsi začal (má pozici pro pokračování), se považuje za zhlédnutou a nezobrazí tečku. Když je vypnuto, záleží jen na počtu přehrání — scéna s 0 přehráními si tečku ponechá, i když jsi ji otevřel.",
+    "setting.dotColor.name": "Barva tečky",
+    "setting.dotColor.description": "Jakákoli barva CSS pro tečku na ikoně. Výchozí #e02020 (červená)."
+  },
+  "da": {
+    "plugin.description": "Sæt en prik på fanens ikon, når den scene, du ser, endnu ikke er set, så du kan se usete scener på et øjeblik.",
+    "setting.resumeCountsAsWatched.name": "Behandl delvist sete som set",
+    "setting.resumeCountsAsWatched.description": "Til som standard. Når til, tæller en scene, du har påbegyndt (den har en genoptagelsesposition), som set og viser ingen prik. Når fra, tæller kun afspilningsantallet — en scene med 0 afspilninger beholder prikken, selv hvis du har åbnet den.",
+    "setting.dotColor.name": "Prikkens farve",
+    "setting.dotColor.description": "Enhver CSS-farve til prikken på ikonet. Standard #e02020 (rød)."
+  },
+  "de": {
+    "plugin.description": "Setzt einen Punkt auf das Tab-Symbol, wenn die Szene, die du ansiehst, noch nicht angesehen wurde, damit du ungesehene Szenen auf einen Blick erkennst.",
+    "setting.resumeCountsAsWatched.name": "Teilweise angesehene als angesehen behandeln",
+    "setting.resumeCountsAsWatched.description": "Standardmäßig an. Wenn an, gilt eine Szene, die du begonnen hast (sie hat eine Fortsetzungsposition), als angesehen und zeigt keinen Punkt. Wenn aus, zählt nur die Wiedergabeanzahl — eine Szene mit 0 Wiedergaben behält den Punkt, auch wenn du sie geöffnet hast.",
+    "setting.dotColor.name": "Punktfarbe",
+    "setting.dotColor.description": "Beliebige CSS-Farbe für den Punkt auf dem Symbol. Standard #e02020 (rot)."
+  },
+  "es": {
+    "plugin.description": "Pone un punto en el icono de la pestaña cuando la escena que estás viendo aún no se ha visto, para que reconozcas de un vistazo las escenas sin ver.",
+    "setting.resumeCountsAsWatched.name": "Tratar las parcialmente vistas como vistas",
+    "setting.resumeCountsAsWatched.description": "Activado por defecto. Cuando está activado, una escena que has empezado (tiene una posición de reanudación) cuenta como vista y no muestra punto. Cuando está desactivado, solo cuenta el número de reproducciones — una escena con 0 reproducciones conserva el punto aunque la hayas abierto.",
+    "setting.dotColor.name": "Color del punto",
+    "setting.dotColor.description": "Cualquier color CSS para el punto del icono. Por defecto #e02020 (rojo)."
+  },
+  "et": {
+    "plugin.description": "Paneb vahelehe ikoonile täpi, kui stseen, mida vaatad, pole veel vaadatud, et eristaksid vaatamata stseene ühe pilguga.",
+    "setting.resumeCountsAsWatched.name": "Käsitle osaliselt vaadatuid vaadatuna",
+    "setting.resumeCountsAsWatched.description": "Vaikimisi sees. Kui sees, loetakse stseen, mille oled alustanud (sellel on jätkamiskoht), vaadatuks ega näita täppi. Kui väljas, loeb ainult esituste arv — 0 esitusega stseen säilitab täpi ka siis, kui oled selle avanud.",
+    "setting.dotColor.name": "Täpi värv",
+    "setting.dotColor.description": "Mis tahes CSS-värv ikooni täpi jaoks. Vaikimisi #e02020 (punane)."
+  },
+  "fa": {
+    "plugin.description": "وقتی صحنه‌ای که تماشا می‌کنید هنوز دیده نشده است، یک نقطه روی نماد زبانه قرار می‌دهد تا صحنه‌های دیده‌نشده را در یک نگاه تشخیص دهید.",
+    "setting.resumeCountsAsWatched.name": "دیده‌شدهٔ ناقص را دیده‌شده در نظر بگیر",
+    "setting.resumeCountsAsWatched.description": "به‌صورت پیش‌فرض روشن. وقتی روشن باشد، صحنه‌ای که شروع کرده‌اید (موقعیت ادامه دارد) دیده‌شده به حساب می‌آید و نقطه‌ای نشان داده نمی‌شود. وقتی خاموش باشد، فقط شمار پخش مهم است — صحنه‌ای با ۰ پخش حتی اگر آن را باز کرده باشید نقطه را حفظ می‌کند.",
+    "setting.dotColor.name": "رنگ نقطه",
+    "setting.dotColor.description": "هر رنگ CSS برای نقطهٔ نماد. پیش‌فرض #e02020 (قرمز)."
+  },
+  "fi": {
+    "plugin.description": "Lisää pisteen välilehden kuvakkeeseen, kun katsomaasi kohtausta ei ole vielä katsottu, jotta erotat katsomattomat kohtaukset yhdellä silmäyksellä.",
+    "setting.resumeCountsAsWatched.name": "Käsittele osittain katsotut katsottuina",
+    "setting.resumeCountsAsWatched.description": "Oletuksena päällä. Kun päällä, aloittamasi kohtaus (jolla on jatkamiskohta) lasketaan katsotuksi eikä pistettä näytetä. Kun pois, vain toistokerrat ratkaisevat — kohtaus, jossa on 0 toistoa, säilyttää pisteen, vaikka olisit avannut sen.",
+    "setting.dotColor.name": "Pisteen väri",
+    "setting.dotColor.description": "Mikä tahansa CSS-väri kuvakkeen pisteelle. Oletus #e02020 (punainen)."
+  },
+  "fr": {
+    "plugin.description": "Ajoute un point sur l’icône de l’onglet lorsque la scène que vous regardez n’a pas encore été vue, afin de repérer les scènes non vues d’un coup d’œil.",
+    "setting.resumeCountsAsWatched.name": "Considérer les partiellement vues comme vues",
+    "setting.resumeCountsAsWatched.description": "Activé par défaut. Lorsqu’activé, une scène que vous avez commencée (elle a une position de reprise) compte comme vue et n’affiche pas de point. Lorsque désactivé, seul le nombre de lectures compte — une scène avec 0 lecture garde le point même si vous l’avez ouverte.",
+    "setting.dotColor.name": "Couleur du point",
+    "setting.dotColor.description": "N’importe quelle couleur CSS pour le point de l’icône. Par défaut #e02020 (rouge)."
+  },
+  "hi": {
+    "plugin.description": "जब आप जो दृश्य देख रहे हैं वह अभी तक नहीं देखा गया है, तो टैब के आइकन पर एक बिंदी लगाता है, ताकि आप एक नज़र में अनदेखे दृश्य पहचान सकें।",
+    "setting.resumeCountsAsWatched.name": "आंशिक रूप से देखे गए को देखा हुआ मानें",
+    "setting.resumeCountsAsWatched.description": "डिफ़ॉल्ट रूप से चालू। चालू होने पर, जो दृश्य आपने शुरू किया है (उसमें फिर से शुरू करने की स्थिति है) उसे देखा हुआ माना जाता है और कोई बिंदी नहीं दिखती। बंद होने पर, केवल प्ले की संख्या मायने रखती है — 0 प्ले वाला दृश्य खोलने पर भी बिंदी बनाए रखता है।",
+    "setting.dotColor.name": "बिंदी का रंग",
+    "setting.dotColor.description": "आइकन की बिंदी के लिए कोई भी CSS रंग। डिफ़ॉल्ट #e02020 (लाल)।"
+  },
+  "hr": {
+    "plugin.description": "Stavlja točku na ikonu kartice kada scena koju gledaš još nije pogledana, kako bi nepogledane scene prepoznao na prvi pogled.",
+    "setting.resumeCountsAsWatched.name": "Smatraj djelomično pogledane pogledanima",
+    "setting.resumeCountsAsWatched.description": "Zadano uključeno. Kada je uključeno, scena koju si započeo (ima položaj nastavka) računa se kao pogledana i ne prikazuje točku. Kada je isključeno, važan je samo broj reprodukcija — scena s 0 reprodukcija zadržava točku čak i ako si je otvorio.",
+    "setting.dotColor.name": "Boja točke",
+    "setting.dotColor.description": "Bilo koja CSS boja za točku na ikoni. Zadano #e02020 (crvena)."
+  },
+  "hu": {
+    "plugin.description": "Pontot tesz a lap ikonjára, ha az éppen nézett jelenetet még nem nézted meg, hogy egy pillantással felismerd a meg nem nézett jeleneteket.",
+    "setting.resumeCountsAsWatched.name": "A részben megnézettek számítsanak megnézettnek",
+    "setting.resumeCountsAsWatched.description": "Alapértelmezetten bekapcsolva. Bekapcsolva egy jelenet, amelyet elkezdtél (van folytatási pozíciója), megnézettnek számít és nem jelenik meg pont. Kikapcsolva csak a lejátszások száma számít — egy 0 lejátszású jelenet megtartja a pontot, még ha meg is nyitottad.",
+    "setting.dotColor.name": "Pont színe",
+    "setting.dotColor.description": "Bármilyen CSS szín az ikon pontjához. Alapértelmezett #e02020 (piros)."
+  },
+  "id": {
+    "plugin.description": "Memberi titik pada ikon tab saat adegan yang sedang kamu tonton belum ditonton, agar kamu bisa mengenali adegan yang belum ditonton sekilas.",
+    "setting.resumeCountsAsWatched.name": "Anggap yang ditonton sebagian sebagai sudah ditonton",
+    "setting.resumeCountsAsWatched.description": "Aktif secara bawaan. Saat aktif, adegan yang sudah kamu mulai (memiliki posisi lanjutkan) dihitung sebagai sudah ditonton dan tidak menampilkan titik. Saat nonaktif, hanya jumlah pemutaran yang berlaku — adegan dengan 0 pemutaran tetap menampilkan titik meskipun sudah kamu buka.",
+    "setting.dotColor.name": "Warna titik",
+    "setting.dotColor.description": "Warna CSS apa pun untuk titik pada ikon. Bawaan #e02020 (merah)."
+  },
+  "it": {
+    "plugin.description": "Mette un punto sull’icona della scheda quando la scena che stai guardando non è ancora stata vista, così riconosci le scene non viste a colpo d’occhio.",
+    "setting.resumeCountsAsWatched.name": "Considera le parzialmente viste come viste",
+    "setting.resumeCountsAsWatched.description": "Attivo per impostazione predefinita. Quando è attivo, una scena che hai iniziato (ha una posizione di ripresa) conta come vista e non mostra il punto. Quando è disattivato, conta solo il numero di riproduzioni — una scena con 0 riproduzioni mantiene il punto anche se l’hai aperta.",
+    "setting.dotColor.name": "Colore del punto",
+    "setting.dotColor.description": "Qualsiasi colore CSS per il punto sull’icona. Predefinito #e02020 (rosso)."
+  },
+  "ja": {
+    "plugin.description": "今開いているシーンがまだ未再生なら、タブのファビコンに丸を付けて、未視聴のシーンを一目で分かるようにします。",
+    "setting.resumeCountsAsWatched.name": "途中まで見たものを視聴済み扱いにする",
+    "setting.resumeCountsAsWatched.description": "既定で有効。有効のとき、再生を始めたシーン（途中再生位置があるもの）は視聴済み扱いになり、丸を出しません。無効のときは再生回数だけで判定し — 再生回数 0 のシーンは、開いたことがあっても丸が残ります。",
+    "setting.dotColor.name": "丸の色",
+    "setting.dotColor.description": "ファビコンの丸に使う CSS カラー。既定は #e02020（赤）。"
+  },
+  "ko": {
+    "plugin.description": "보고 있는 장면을 아직 보지 않았을 때 탭 아이콘에 점을 표시해, 보지 않은 장면을 한눈에 알아볼 수 있게 합니다.",
+    "setting.resumeCountsAsWatched.name": "일부만 본 것을 시청한 것으로 취급",
+    "setting.resumeCountsAsWatched.description": "기본값 켬. 켜지면 시작한 장면(이어보기 위치가 있는 것)은 시청한 것으로 간주되어 점이 표시되지 않습니다. 꾸면 재생 횟수만 중요해집니다 — 재생 0회인 장면은 열어봤더라도 점이 남습니다.",
+    "setting.dotColor.name": "점 색상",
+    "setting.dotColor.description": "아이콘 점에 사용할 임의의 CSS 색상. 기본값 #e02020 (빨강)."
+  },
+  "lt": {
+    "plugin.description": "Ant kortelės piktogramos uždeda taškelį, kai scena, kurią žiūri, dar nežiūrėta, kad nežiūrėtas scenas atpažintum iš pirmo žvilgsnio.",
+    "setting.resumeCountsAsWatched.name": "Laikyti iš dalies peržiūrėtas peržiūrėtomis",
+    "setting.resumeCountsAsWatched.description": "Pagal numatymą įjungta. Kai įjungta, scena, kurią pradėjai (ji turi tęsimo poziciją), laikoma peržiūrėta ir taškelis nerodomas. Kai išjungta, svarbu tik peržiūrų skaičius — scena su 0 peržiūrų išlaiko taškelį, net jei ją atidarei.",
+    "setting.dotColor.name": "Taškelio spalva",
+    "setting.dotColor.description": "Bet kokia CSS spalva piktogramos taškeliui. Numatyta #e02020 (raudona)."
+  },
+  "lv": {
+    "plugin.description": "Uzliek punktu cilnes ikonai, kad aina, ko skaties, vēl nav noskatīta, lai nenoskatītas ainas uzreiz pazītu.",
+    "setting.resumeCountsAsWatched.name": "Uzskatīt daļēji noskatītās par noskatītām",
+    "setting.resumeCountsAsWatched.description": "Pēc noklusējuma ieslēgts. Kad ieslēgts, aina, ko esi sācis (tai ir atsākšanas pozīcija), tiek uzskatīta par noskatītu un punkts netiek rādīts. Kad izslēgts, nozīme ir tikai atskaņošanu skaitam — aina ar 0 atskaņošanām patur punktu pat tad, ja esi to atvēris.",
+    "setting.dotColor.name": "Punkta krāsa",
+    "setting.dotColor.description": "Jebkura CSS krāsa ikonas punktam. Noklusējums #e02020 (sarkans)."
+  },
+  "nb": {
+    "plugin.description": "Setter en prikk på fanens ikon når scenen du ser på  ennå ikke er sett, slik at du gjenkjenner usette scener med et blikk.",
+    "setting.resumeCountsAsWatched.name": "Behandle delvis sett som sett",
+    "setting.resumeCountsAsWatched.description": "På som standard. Når på, teller en scene du har begynt på (den har en fortsettelsesposisjon) som sett og viser ingen prikk. Når av, teller bare antall avspillinger — en scene med 0 avspillinger beholder prikken selv om du har åpnet den.",
+    "setting.dotColor.name": "Prikkfarge",
+    "setting.dotColor.description": "Enhver CSS-farge for prikken på ikonet. Standard #e02020 (rød)."
+  },
+  "ne": {
+    "plugin.description": "तपाईंले हेरिरहनुभएको दृश्य अजै हेरिएको छैन भने ट्याबको आइकनमा एउटा थोप्लो राख्छ, ताकि नहेरिएका दृश्यहरू एकै नजरमा चिन्न सकियोस्।",
+    "setting.resumeCountsAsWatched.name": "आंशिक रूपमा हेरिएकालाई हेरिएको मान्ने",
+    "setting.resumeCountsAsWatched.description": "पूर्वनिर्धारित रूपमा अन। अन हुँदा, तपाईंले सुरु गरेको दृश्य (जसमा पुनः सुरु गर्ने स्थान छ) हेरिएको मानिन्छ र थोप्लो देखिँदैन। अफ हुँदा, केवл प्ले संख्याले मात्र अर्थ राख्छ — 0 प्ले भएको दृश्य खोлे पनि थोप्लो रहन्छ।",
+    "setting.dotColor.name": "थोप्लोको रङ्ग",
+    "setting.dotColor.description": "आइकनको थोप्लोका лागि जुनसुकै CSS रङ्ग। पूर्वनिर्धारित #e02020 (रातो)।"
+  },
+  "nl": {
+    "plugin.description": "Zet een stip op het tabbladpictogram wanneer de scène die je bekijkt nog niet is bekeken, zodat je onbekeken scènes in één oogopslag herkent.",
+    "setting.resumeCountsAsWatched.name": "Gedeeltelijk bekeken als bekeken behandelen",
+    "setting.resumeCountsAsWatched.description": "Standaard aan. Wanneer aan telt een scène die je bent begonnen (die heeft een hervattingspositie) als bekeken en wordt geen stip getoond. Wanneer uit telt alleen het aantal weergaven — een scène met 0 weergaven houdt de stip, zelfs als je hem hebt geopend.",
+    "setting.dotColor.name": "Stipkleur",
+    "setting.dotColor.description": "Elke CSS-kleur voor de stip op het pictogram. Standaard #e02020 (rood)."
+  },
+  "nn": {
+    "plugin.description": "Set ein prikk på fanen sitt ikon når scena du ser på enno ikkje er sett, slik at du kjenner att usette scener med eit blikk.",
+    "setting.resumeCountsAsWatched.name": "Handsam delvis sett som sett",
+    "setting.resumeCountsAsWatched.description": "På som standard. Når på, tel ei scene du har byrja på (ho har ein framhaldsposisjon) som sett og viser ingen prikk. Når av, tel berre talet på avspelingar — ei scene med 0 avspelingar held på prikken sjølv om du har opna henne.",
+    "setting.dotColor.name": "Prikkfarge",
+    "setting.dotColor.description": "Kva som helst CSS-farge for prikken på ikonet. Standard #e02020 (raud)."
+  },
+  "pl": {
+    "plugin.description": "Umieszcza kropkę na ikonie karty, gdy oglądana scena nie została jeszcze obejrzana, abyś rozpoznał nieobejrzane sceny na pierwszy rzut oka.",
+    "setting.resumeCountsAsWatched.name": "Traktuj częściowo obejrzane jako obejrzane",
+    "setting.resumeCountsAsWatched.description": "Domyślnie włączone. Gdy włączone, scena, którą zacząłeś (ma pozycję wznowienia), liczy się jako obejrzana i nie pokazuje kropki. Gdy wyłączone, liczy się tylko liczba odtworzeń — scena z 0 odtworzeń zachowuje kropkę, nawet jeśli ją otwarłeś.",
+    "setting.dotColor.name": "Kolor kropki",
+    "setting.dotColor.description": "Dowolny kolor CSS dla kropki na ikonie. Domyślnie #e02020 (czerwony)."
+  },
+  "pt": {
+    "plugin.description": "Coloca um ponto no ícone da aba quando a cena que você está vendo ainda não foi assistida, para que você reconheça cenas não vistas num relance.",
+    "setting.resumeCountsAsWatched.name": "Tratar parcialmente assistidas como assistidas",
+    "setting.resumeCountsAsWatched.description": "Ativado por padrão. Quando ativado, uma cena que você começou (tem uma posição de retomada) conta como assistida e não mostra ponto. Quando desativado, só importa o número de reproduções — uma cena com 0 reproduções mantém o ponto mesmo que você a tenha aberto.",
+    "setting.dotColor.name": "Cor do ponto",
+    "setting.dotColor.description": "Qualquer cor CSS para o ponto no ícone. Padrão #e02020 (vermelho)."
+  },
+  "ro": {
+    "plugin.description": "Pune un punct pe pictograma filei când scena pe care o vizionezi nu a fost încă văzută, ca să recunoşti scenele nevăzute dintr-o privire.",
+    "setting.resumeCountsAsWatched.name": "Tratează parţial vizionate ca vizionate",
+    "setting.resumeCountsAsWatched.description": "Activat implicit. Când e activat, o scenă pe care ai început-o (are o poziţie de reluare) contează ca văzută şi nu afişează punct. Când e dezactivat, contează doar numărul de redari — o scenă cu 0 redari păstrează punctul chiar dacă ai deschis-o.",
+    "setting.dotColor.name": "Culoarea punctului",
+    "setting.dotColor.description": "Orice culoare CSS pentru punctul de pe pictogramă. Implicit #e02020 (roşu)."
+  },
+  "ru": {
+    "plugin.description": "Ставит точку на значок вкладки, когда сцена, которую вы смотрите, ещё не просмотрена, чтобы узнавать непросмотренные сцены с первого взгляда.",
+    "setting.resumeCountsAsWatched.name": "Считать частично просмотренные просмотренными",
+    "setting.resumeCountsAsWatched.description": "По умолчанию включено. Когда включено, сцена, которую вы начали (у неё есть позиция возобновления), считается просмотренной и точка не показывается. Когда выключено, важно только число просмотров — сцена с 0 просмотров сохраняет точку, даже если вы её открывали.",
+    "setting.dotColor.name": "Цвет точки",
+    "setting.dotColor.description": "Любой цвет CSS для точки на значке. По умолчанию #e02020 (красный)."
+  },
+  "sk": {
+    "plugin.description": "Pridá bodku na ikonu karty, keď scéna, ktorú pozeráš, ešte nebola pozretá, aby si nepozretú scény spoznal na prvý pohľad.",
+    "setting.resumeCountsAsWatched.name": "Považovať čiastočne pozreté za pozreté",
+    "setting.resumeCountsAsWatched.description": "Predvolene zapnuté. Keď je zapnuté, scéna, ktorú si začal (má pozíciu pokračovania), sa považuje za pozretú a nezobrazí sa bodka. Keď je vypnuté, záleží len na počte prehratí — scéna s 0 prehratiami si bodku ponechá, aj keď si ju otvoril.",
+    "setting.dotColor.name": "Farba bodky",
+    "setting.dotColor.description": "Akákoľvek CSS farba pre bodku na ikone. Predvolené #e02020 (červená)."
+  },
+  "sv": {
+    "plugin.description": "Sätter en prick på flikens ikon när scenen du tittar på ännu inte setts, så att du känner igen osedda scener på ett ögonkast.",
+    "setting.resumeCountsAsWatched.name": "Behandla delvis sedda som sedda",
+    "setting.resumeCountsAsWatched.description": "På som standard. När på räknas en scen du har påbörjat (den har en återupptagningsposition) som sedd och visar ingen prick. När av räknas bara antalet visningar — en scen med 0 visningar behåller pricken även om du har öppnat den.",
+    "setting.dotColor.name": "Prickfärg",
+    "setting.dotColor.description": "Valfri CSS-färg för pricken på ikonen. Standard #e02020 (röd)."
+  },
+  "th": {
+    "plugin.description": "ใส่จุดบนไอคอนของแท็บเมื่อฉากที่กำลังดูยังไม่เคยดู เพื่อให้คุณแยกฉากที่ยังไม่ได้ดูได้ในพริบตา",
+    "setting.resumeCountsAsWatched.name": "นับฉากที่ดูบางส่วนว่าดูแล้ว",
+    "setting.resumeCountsAsWatched.description": "เปิดใช้งานโดยค่าเริ่มต้น เมื่อเปิด ฉากที่คุณเริ่มดู (มีตำแหน่งเล่นต่อ) จะถือว่าดูแล้วและจะไม่แสดงจุด เมื่อปิด จะนับเฉพาะจำนวนครั้งที่เล่น — ฉากที่เล่น 0 ครั้งจะยังคงจุดไว้แม้คุณจะเปิดมันแล้ว",
+    "setting.dotColor.name": "สีของจุด",
+    "setting.dotColor.description": "สี CSS ใดก็ได้สำหรับจุดบนไอคอน ค่าเริ่มต้น #e02020 (แดง)"
+  },
+  "tr": {
+    "plugin.description": "İzlediğin sahne henüz izlenmemişse sekme simgesine bir nokta koyar, böylece izlenmemiş sahneleri bir bakışta ayırt edersin.",
+    "setting.resumeCountsAsWatched.name": "Kısmen izlenenleri izlenmiş say",
+    "setting.resumeCountsAsWatched.description": "Varsayılan olarak açık. Açıkken, başladığın bir sahne (devam konumu vardır) izlenmiş sayılır ve nokta göstermez. Kapalıyken yalnızca oynatma sayısı önemlidir — 0 oynatmalı bir sahne, açmış olsan bile noktayı korur.",
+    "setting.dotColor.name": "Nokta rengi",
+    "setting.dotColor.description": "Simgedeki nokta için herhangi bir CSS rengi. Varsayılan #e02020 (kırmızı)."
+  },
+  "uk": {
+    "plugin.description": "Ставить крапку на значок вкладки, коли сцена, яку ви переглядаєте, ще не переглянута, щоб розпізнавати непереглянуті сцени з першого погляду.",
+    "setting.resumeCountsAsWatched.name": "Вважати частково переглянуті переглянутими",
+    "setting.resumeCountsAsWatched.description": "Увімкнено за замовчуванням. Коли увімкнено, сцена, яку ви розпочали (вона має позицію продовження), вважається переглянутою і крапка не показується. Коли вимкнено, важлива лише кількість переглядів — сцена з 0 переглядів зберігає крапку, навіть якщо ви її відкривали.",
+    "setting.dotColor.name": "Колір крапки",
+    "setting.dotColor.description": "Будь-який колір CSS для крапки на значку. За замовчуванням #e02020 (червоний)."
+  },
+  "ur": {
+    "plugin.description": "جب آپ جو منظر دیکھ رہے ہیں وہ ابھی تک نہیں دیکھا گیا، تو ٹیب کے آئکن پر ایک نقطہ لگاتا ہے، تاکہ آپ ایک نظر میں غیر دیکھے گئے مناظر پہچان سکیں۔",
+    "setting.resumeCountsAsWatched.name": "جزوی طور پر دیکھے گئے کو دیکھا ہوا شمار کریں",
+    "setting.resumeCountsAsWatched.description": "طے شدہ طور پر آن۔ جب آن ہو، تو وہ منظر جو آپ نے شروع کیا (اس کی دوبارہ شروع کرنے کی پوزیشن ہے) دیکھا ہوا شمار ہوتا ہے اور کوئی نقطہ نہیں دکھاتا۔ جب آف، تو صرف پلے کی تعداد اہم ہے — 0 پلے والا منظر تب بھی نقطہ برقرار رکھتا ہے جب آپ نے اسے کھولا ہو۔",
+    "setting.dotColor.name": "نقطے کا رنگ",
+    "setting.dotColor.description": "آئکن کے نقطے کے لیے کوئی بھی CSS رنگ۔ طے شدہ #e02020 (سرخ)۔"
+  },
+  "vi": {
+    "plugin.description": "Đặt một chấm lên biểu tượng tab khi cảnh bạn đang xem chưa được xem, để bạn nhận ra các cảnh chưa xem ngay tức khắc.",
+    "setting.resumeCountsAsWatched.name": "Coi cảnh xem dở dang là đã xem",
+    "setting.resumeCountsAsWatched.description": "Mặc định bật. Khi bật, một cảnh bạn đã bắt đầu (có vị trí tiếp tục) được tính là đã xem và không hiện chấm. Khi tắt, chỉ số lần phát mới quan trọng — cảnh có 0 lần phát vẫn giữ chấm dù bạn đã mở nó.",
+    "setting.dotColor.name": "Màu chấm",
+    "setting.dotColor.description": "Bất kỳ màu CSS nào cho chấm trên biểu tượng. Mặc định #e02020 (đỏ)."
+  },
+  "zh-cn": {
+    "plugin.description": "当你正在观看的场景尚未观看时，在标签页图标上打一个点，让你一眼就能认出未看过的场景。",
+    "setting.resumeCountsAsWatched.name": "将部分观看视为已观看",
+    "setting.resumeCountsAsWatched.description": "默认开启。开启时，你已开始观看的场景（有继续播放位置）视为已观看，不显示点。关闭时，只看播放次数 — 播放次数为 0 的场景即使你打开过也会保留点。",
+    "setting.dotColor.name": "点的颜色",
+    "setting.dotColor.description": "图标上点的任意 CSS 颜色。默认 #e02020（红色）。"
+  },
+  "zh-tw": {
+    "plugin.description": "當你正在觀看的場景尚未觀看時，在分頁圖示上打一個點，讓你一眼就能認出未看過的場景。",
+    "setting.resumeCountsAsWatched.name": "將部分觀看視為已觀看",
+    "setting.resumeCountsAsWatched.description": "預設開啟。開啟時，你已開始觀看的場景（有繼續播放位置）視為已觀看，不顯示點。關閉時，只看播放次數 — 播放次數為 0 的場景即使你開啟過也會保留點。",
+    "setting.dotColor.name": "點的顏色",
+    "setting.dotColor.description": "圖示上點的任意 CSS 顏色。預設 #e02020（紅色）。"
+  }
+}

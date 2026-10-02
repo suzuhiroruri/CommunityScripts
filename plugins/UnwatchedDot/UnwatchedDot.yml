@@ -1,0 +1,24 @@
+name: Unwatched Dot
+# The settings below are what Stash draws on the settings page, and Stash reads
+#     them as plain text: the plugin format has no localisation. The frontend
+#     translates them at render time from UnwatchedDot.settings.json -- keep the
+#     two in step when adding or renaming a setting.
+description: Put a dot on the browser tab favicon when the scene you are viewing has not been watched yet, so you can tell unseen scenes at a glance.
+version: 1.0.0
+url: https://github.com/stashapp/CommunityScripts/tree/main/plugins/UnwatchedDot
+
+ui:
+  javascript:
+    - UnwatchedDot.js
+  assets:
+    /: .
+
+settings:
+  resumeCountsAsWatched:
+    displayName: Treat partially-watched as watched
+    description: Default on. When on, a scene you have started (it has a resume position) counts as watched and shows no dot. When off, only the play count matters — a scene with 0 plays keeps the dot even if you opened it.
+    type: BOOLEAN
+  dotColor:
+    displayName: Dot colour
+    description: Any CSS colour for the favicon dot. Default #e02020 (red).
+    type: STRING
